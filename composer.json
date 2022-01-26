@@ -1,0 +1,28 @@
+{
+    "name": "greezlu/ws-session",
+    "description": "Session Manager",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/greezlu/ws-session",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "greezlu",
+            "email": "greezlu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0"
+    },
+    "keywords": [
+        "php",
+        "session",
+        "php-session",
+        "session-manager"
+    ],
+    "autoload": {
+        "psr-4": {
+            "WebServer\\Core\\": "src/Core"
+        }
+    }
+}
