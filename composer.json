@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "WebServer\\Core\\": "src/Core"
+            "WebServer\\": "src"
         }
     }
 }
